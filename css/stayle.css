@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* header starts */
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.50), rgba(51, 51, 51, 0.50)), url(../img/teator.jpg);
+    background-size: cover;
+    position: relative;
+    /* display: flex; */
+}
+.container{
+    padding-top: 50px;
+}
+.container .navbar{
+    width: 100%;
+}
+.container .navbar ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    height: 25px;
+    left: 919px;
+    top: 51px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container .navbar ul li{
+    display: block;
+    gap: 10px;
+}
+.container .navbar ul li:hover{
+    color: #D1A954;
+}
+.header .box{
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(51, 51, 51, 0.75);
+}
+.header .box h1{
+    position: absolute;
+    /* border: 1px solid #ffff; */
+    width: 400px;
+    height: 25px;
+    left: -150px;
+    top: 300px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+.header .box .icons{
+    width: 30px;
+    height: 150px;
+    position: relative;
+    top: 600px;
+    left: 40px;
+}
+.header .box .icons i{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.header .box .icons i:hover{
+    color: #D1A954;
+}
+.header .box_text{
+    position: relative;
+    left: 20%;
+    height: 600px;
+    width: 70%;
+    display: flex;
+}
+.header .box_text .box_child{
+    padding-top: 100px;
+    width: 50%;
+}
+.header .box_text .box_child h1{
+    padding: 30px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header .box_text .box_child p{
+    padding-left: 30px;
+    color: #fff;
+    width: 540px;
+    height: 79px;
+    left: 405px;
+    top: 502px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.header .box_text .box_child button{
+    margin: 30px;
+    border-color: transparent;
+    border-radius: 14px;
+    width: 160px;
+    height: 50px;
+    left: 405px;
+    top: 630px;
+    background: #D1A954;
+}
+.header .box_text .box_child button:hover{
+    color: #ffff;
+}
+.header .box_text .box_img{
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    background-color: #D1A954;
+}
+.header .box_text .box_img img{
+    width: 95%;
+    height: 95%;
+}
+
+
+@media screen {
+    
+}
+
+/* header ends */
+
+/* <!-- section starts --> */
+
+
+#section{
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+}
+.section h1{
+    padding: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px
+}
+.section h1:hover{
+    color: #D1A954;
+}
+.section .stiv_fether{
+    margin: 0 auto;
+    width: 70%;
+    height: 60%;
+    display: flex;
+}
+.section .stiv_fether .stiv_text h2{
+    padding: 25px 0;
+    width: 100%;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section .stiv_fether .stiv_text p{
+    width: 445px;
+    height: 210px;
+    left: 405px;
+    top: 1423px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.section .stiv_fether .stiv_info{
+    text-align: center;
+    padding: 5px;
+}
+.section .stiv_fether .stiv_info h4{
+    padding: 20px 0;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section .stiv_fether .stiv_img{
+    width: 40%;
+    height: 100%;
+
+}
+.section .stiv_fether .stiv_img img{
+    width: 90%;
+    height: 70%;
+    background-size: cover;
+}
+.section .box{
+    width: 90%;
+    height: 570px;
+    margin-left: 10%;
+    border: 1px solid #fff;
+    display: flex;
+}
+.section .box .box_img{
+    position: relative;
+    border: 1px solid #fff;
+    width: 450px;
+    height: 100%;
+}
+.section .box .box_img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.section .box .box_img h2{
+    position: absolute;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section .box .box_img p{
+    position: absolute;
+    top: 80%;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+.section .box .box_img i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    left: 150px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #D1A954;
+    color: #fff;
+    border-radius: 50%;
+}
+.section .box .box_img i:hover{
+    background-color: #FFFFFF;
+    color: #D1A954;
+}
+
+.section .images{
+    margin: 30px auto;
+    background-image: url(../img/Rectangle\ 28.png);
+    background-size: cover;
+    /* margin: 100px auto; */
+    width: 70%;
+    height: 400px;
+}
+.section .images .images_child{
+    display: flex;
+}
+.section .images .images_text h2{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 100px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+    cursor: pointer;
+}
+.section .images .images_text h2:hover{
+    color: #FFFFFF;
+}
+.section .images .images_child .images_info{
+    width: 300px;
+    height: 395px;
+    margin: 0 auto;  
+    padding-top: 60px;
+}
+.section .images .images_child .images_info i{
+    color: #D1A954;
+    margin: 10px;
+    cursor: pointer;
+}
+.section .images .images_child .images_info i:hover{
+    color: #FFFFFF;
+}
+.section .images .images_child .images_info h3{
+    padding-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.section  .box_logo{
+    margin: 30px auto;
+    width: 70%;
+    height: 350px;
+}
+.section  .box_logo img{
+    width: 200px;
+    padding: 30px;
+
+
+}
+
+/* <!-- section ends --> */
+
+/* <-- footer starts --> */
+
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+}
+.footer .continer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid transparent;
+    border-color: transparent;
+
+}
+.footer .continer .number{
+    position: relative;
+    padding: 20px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+
+}
+.footer .continer .number h4{
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer .continer .number h4:hover{
+    color: #D1A954;
+}
+.footer .continer .ruyxat{
+    padding: 30px;
+    height: 100%;
+    border: 1px solid transparent;
+}
+.footer .continer .ruyxat input{
+    margin: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 180px;
+    height: 35px;
+    background: #444444;
+    border: 1px solid #616161;
+}
+.footer .continer .ruyxat button{
+    width: 190px;
+    height: 50px;
+    left: 1325px;
+    top: 4229px;
+    color: #fff;
+    background: #D1A954;
+    border-color: transparent;
+    border-radius: 14px;
+}
+.footer .continer .ruyxat button:hover{
+    background-color: #fff;
+    color: #D1A954;
+}
+.footer .line{
+    margin-top: 20px;
+    width: 70%;
+    height: 1px;
+    margin-left: 15%;
+    background-color: #565656;
+}
+.footer p{
+    width: 390px;
+    height: 50px;
+    margin-left: 50%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+.footer .malumot{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .malumot span{
+    padding: 20px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+
+/* <-- footer ends --> */
+
+
+
+
+
+
